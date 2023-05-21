@@ -1,0 +1,115 @@
+.benefit {
+  position: relative;
+  // background-color: aquamarine;
+
+  padding-top: 32px;
+  @media screen and (min-width: 768px) {
+    padding-top: 0;
+  }
+  &__wrap {
+    @media screen and (min-width: 768px) {
+      display: flex;
+    }
+  }
+
+  &__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.27;
+    margin-bottom: 52px;
+
+    @media screen and (min-width: 768px) {
+      text-align: left;
+    }
+
+    @media screen and (min-width: 1440px) {
+      margin-top: 89px;
+    }
+    span {
+      color: $accent-main-color;
+    }
+  }
+  &__list {
+    margin-bottom: 88px;
+
+    @media screen and (min-width: 768px) {
+      margin-bottom: 50px;
+    }
+  }
+
+  &__item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.56;
+    padding-left: 91px;
+
+    @media screen and (min-width: 768px) {
+      width: 420px;
+      padding-left: 89px;
+    }
+  }
+
+  &__item:not(:last-child) {
+    padding-bottom: 24px;
+  }
+
+  &__button {
+    margin-bottom: 31px;
+
+    @media screen and (min-width: 768px) {
+      width: 311px;
+      margin-left: 89px;
+      margin-bottom: 0;
+    }
+  }
+
+  &__girl {
+    width: 300px;
+    height: 335px;
+    background-image: url('../images/girl.png');
+
+    @media screen and (min-width: 360px) {
+      width: 330px;
+      margin-left: 15px;
+    }
+
+    @media screen and (min-width: 1440px) {
+      width: 674px;
+      height: 686px;
+      background-image: url('../images/girl-desc.png');
+      margin-left: 95px;
+    }
+  }
+}
+
+.benefit-first {
+  background-image: url('../images/tools.svg');
+  background-repeat: no-repeat;
+  background-position: 4% 0%;
+  background-size: 49px 58px;
+  @media screen and (min-width: 768px) {
+    background-size: 45px 53px;
+  }
+}
+
+.benefit-second {
+  background-image: url('../images/phone.svg');
+  background-repeat: no-repeat;
+  background-position: 7% 0%;
+  background-size: 37px 51px;
+  @media screen and (min-width: 768px) {
+    background-size: 34px 47px;
+  }
+}
+
+.benefit-third {
+  background-image: url('../images/map.svg');
+  background-repeat: no-repeat;
+  background-position: 5% 0%;
+  background-size: 51px 60px;
+  @media screen and (min-width: 768px) {
+    background-size: 47px 55px;
+    background-position: 5% 65%;
+  }
+}

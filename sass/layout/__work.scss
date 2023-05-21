@@ -1,0 +1,209 @@
+.work {
+  overflow: hidden;
+  padding-top: 48px;
+  padding-bottom: 459px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 58px;
+    padding-bottom: 86px;
+  }
+
+  &__main-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.22;
+    text-align: center;
+    margin-bottom: 37px;
+    @media screen and (min-width: 768px) {
+      margin-bottom: 127px;
+      font-size: 32px;
+    }
+    span {
+      color: $accent-main-color;
+    }
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 1.7;
+    @media screen and (min-width: 1440px) {
+      font-size: 24px;
+      line-height: 1.25;
+    }
+  }
+
+  &__text {
+    font-weight: 400;
+    font-style: 16px;
+    line-height: 1.625;
+  }
+  &__list {
+    background-image: url('../images/work.svg');
+    background-repeat: no-repeat;
+
+    @media screen and (min-width: 1440px) {
+      width: 940px;
+      margin: 0 auto;
+      background-image: url('../images/work-desc.svg');
+      background-position: 50% 40%;
+    }
+  }
+
+  &__item {
+    padding-left: 78px;
+
+    @media screen and (min-width: 1440px) {
+      display: flex;
+      padding-left: 0;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  &__info1 {
+    @media screen and (min-width: 1440px) {
+      width: 341px;
+    }
+  }
+  &__info2 {
+    @media screen and (min-width: 1440px) {
+      width: 246px;
+      margin-left: 64px;
+    }
+  }
+  &__info3 {
+    @media screen and (min-width: 1440px) {
+      width: 403px;
+      margin-left: 199px;
+    }
+  }
+
+  &__item-card {
+    margin-top: 14px;
+    @media screen and (min-width: 1440px) {
+      margin-top: 0;
+    }
+  }
+
+  &-first {
+    width: 200px;
+    height: 200px;
+
+    background-image: url('../images/work1.png');
+    @media screen and (min-width: 1440px) {
+      width: 340px;
+      height: 340px;
+      background-image: url('../images/work1-desc.png');
+    }
+  }
+
+  &-second {
+    width: 186px;
+    height: 186px;
+    margin-top: 5px;
+    background-image: url('../images/work3.png');
+    @media screen and (min-width: 1440px) {
+      width: 362px;
+      height: 362px;
+      margin-top: 0;
+      background-image: url('../images/work3-desc.png');
+    }
+  }
+
+  &-third {
+    width: 209px;
+    height: 209px;
+    background-image: url('../images/work2.png');
+    @media screen and (min-width: 1440px) {
+      width: 407px;
+      height: 407px;
+      background-image: url('../images/work2-desc.png');
+    }
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
+  }
+
+  &__secondary {
+    @media screen and (min-width: 768px) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 72px;
+    }
+
+    &-title {
+      font-weight: 700;
+      font-size: 23px;
+      line-height: 1.46;
+      margin-bottom: 20px;
+      margin-top: 77px;
+      text-align: center;
+
+      @media screen and (min-width: 768px) {
+        text-align: left;
+      }
+      @media screen and (min-width: 1440px) {
+        font-size: 36px;
+        line-height: 0.9;
+      }
+      span {
+        color: $accent-main-color;
+      }
+    }
+
+    &-text {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 1.5;
+      width: 265px;
+      margin: 0 auto;
+      margin-bottom: 40px;
+      text-align: center;
+      color: #2a313d;
+
+      @media screen and (min-width: 768px) {
+        width: 358px;
+        text-align: left;
+        margin-bottom: 120px;
+      }
+      @media screen and (min-width: 1440px) {
+        font-size: 24px;
+        line-height: 1.375;
+        width: 458px;
+      }
+    }
+  }
+
+  &__secondary-button {
+    margin: 0 auto;
+    margin-bottom: 42px;
+    @media screen and (min-width: 768px) {
+      width: 311px;
+      margin-bottom: 0;
+      margin-left: 0;
+    }
+    @media screen and (min-width: 1440px) {
+      margin: 0 auto;
+    }
+  }
+
+  &__secondary-card {
+    position: absolute;
+    width: 390px;
+    height: 377px;
+    background-image: url('../images/ready.png');
+
+    @media screen and (min-width: 768px) {
+      position: relative;
+    }
+    @media screen and (min-width: 1440px) {
+      width: 600px;
+      height: 580px;
+
+      background-image: url('../images/ready-desc.png');
+    }
+  }
+}

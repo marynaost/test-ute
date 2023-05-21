@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UTE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./sass/main.css" />
+    <script type="module" src="./index.js"></script>
+  </head>
+  <body>
+    <!-- ❗️❗️❗️ Add partials like so for every page -->
+    <header class="header container">
+      <a class="logo" href="/">
+        <img src="images/logo-ute.png" alt="Logo" />
+        <p class="text">UTE Invest</p>
+      </a>
+      <nav class="nav">
+        <ul>
+          <li>Nuestras ventajas</li>
+          <li>Cómo funciona</li>
+          <li>Comentarios</li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero__title">
+          GANE DIARIAMENTE <br />
+          DESDE <span>SU TELÉFONO</span>
+        </h1>
+        <p class="hero__text">
+          Rellenar correctamente el formulario de inscripción
+        </p>
+
+        <a href="https://web.telegram.org" rel="noopener noreferrer">
+          <img src="images/icon-telegram.svg" />
+        </a>
+
+        <p class="hero__text-second">
+          Espera la llamada de un representante de UTE Invest
+        </p>
+        <div class="hero__phone"></div>
+        <div class="hero__slider">
+          <ul class="hero__list">
+            <li class="hero__item first">En todo el mundo</li>
+            <li class="hero__item second">
+              Dedicar el tiempo <br />
+              deseado
+            </li>
+            <li class="hero__item third">Garantía de resultados</li>
+          </ul>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  class="swipe-card"
+                  src="images/slider_item1-desc.png"
+                  alt="slider"
+                  width=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swipe-card"
+                  src="images/slider_item2-desc.png"
+                  alt="slider"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swipe-card"
+                  src="images/slider_item3-desc.png"
+                  alt="slider"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews container">
+      <h2 class="reviews__title">
+        Opiniones de usuarios <br />
+        <span>reales de UTE</span>
+      </h2>
+      <p class="reviews__text">
+        No importa cuánto tiempo libre tengas ni de qué tipo de dispositivo
+        dispongas: ¡obtendrás <span>beneficios</span>!
+      </p>
+      <button class="reviews__button button" type="button">Me interesa</button>
+      <ul class="reviews__list">
+        <li class="reviews__item">
+          <div class="reviews__card">
+            <img
+              class="reviews__item-img"
+              src="images/luis.png"
+              alt="Luis V."
+            />
+            <div>
+              <h4 class="reviews__item-name">Luis V.</h4>
+              <p class="reviews__item-city">Montevideo, Uruguay</p>
+            </div>
+          </div>
+          <p class="reviews__item-text">
+            Llevo unos años buscando una forma de ganar dinero como ésta, pero
+            no creía que existiera realmente. Me alegro de haber encontrado UTE
+            Invest. Es muy fácil trabajar con él.
+          </p>
+        </li>
+        <li class="reviews__item">
+          <div class="reviews__card">
+            <img
+              class="reviews__item-img"
+              src="images/image 3.png"
+              alt="Silvia D."
+            />
+            <div>
+              <h4 class="reviews__item-name">Silvia D.</h4>
+              <p class="reviews__item-city">Durazno, Uruguay</p>
+            </div>
+          </div>
+          <p class="reviews__item-text">
+            Es genial poder pulsar un botón y ver cómo crece el saldo de mi
+            cuenta. Increíble.
+          </p>
+        </li>
+        <li class="reviews__item">
+          <div class="reviews__card">
+            <img
+              class="reviews__item-img"
+              src="images/artur.png"
+              alt="Artur M."
+            />
+            <div>
+              <h4 class="reviews__item-name">Artur M.</h4>
+              <p class="reviews__item-city">Salto, Uruguay</p>
+            </div>
+          </div>
+          <p class="reviews__item-text">
+            Muchas gracias al equipo de apoyo, que siempre está en contacto y
+            nos lleva "de la mano" hacia un resultado positivo.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="benefit container">
+      <div class="benefit__wrap">
+        <div>
+          <h2 class="benefit__title"><span>¿POR QUÉ</span> INVERTIR EN UTE?</h2>
+          <ul class="benefit__list">
+            <li class="benefit__item benefit-first">
+              Puedes trabajar tanto desde el teléfono como desde el ordenador
+            </li>
+            <li class="benefit__item benefit-second">
+              No es necesario tener experiencia en el comercio
+            </li>
+            <li class="benefit__item benefit-third">
+              Esté donde esté, en casa o de vacaciones, ¡sólo necesita Internet!
+            </li>
+          </ul>
+          <button class="benefit__button button" type="button">
+            Me interesa
+          </button>
+        </div>
+        <div class="benefit__girl"></div>
+      </div>
+    </section>
+
+    <section class="work container">
+      <h2 class="work__main-title"><span>Cómo</span> funciona</h2>
+      <ul class="work__list">
+        <li class="work__item reverse">
+          <div class="work__info1">
+            <h3 class="work__title">
+              Deje sus datos de contacto <br />
+              Introduzca su número
+            </h3>
+            <p class="work__text">
+              de teléfono y espere la llamada de nuestro especialista
+            </p>
+          </div>
+          <div class="work__item-card work-first"></div>
+        </li>
+        <li class="work__item">
+          <div class="work__info2">
+            <h3 class="work__title">
+              Comience con un <br />
+              pequeño depósito
+            </h3>
+            <p class="work__text">Puede empezar con la cantidad que desee</p>
+          </div>
+          <div class="work__item-card work-second"></div>
+        </li>
+        <li class="work__item reverse">
+          <div class="work__info3">
+            <h3 class="work__title">
+              Responde a la llamada de nuestro especialista
+            </h3>
+            <p class="work__text">
+              Nuestro gestor se pondrá en contacto contigo para ayudarte a
+              empezar a ganar hoy mismo
+            </p>
+          </div>
+          <div class="work__item-card work-third"></div>
+        </li>
+      </ul>
+      <div class="work__secondary">
+        <div>
+          <h3 class="work__secondary-title">
+            <span>¿Listo para</span> empezar?
+          </h3>
+          <p class="work__secondary-text">
+            UTE Invest: la mejor manera de <br />
+            mantenerse a sí mismo y a los suyos 
+          </p>
+          <button type="button" class="button work__secondary-button">
+            INICIO
+          </button>
+        </div>
+        <div class="work__secondary-card"></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <!-- <div class="container footer__wrap"> -->
+      <div>
+        <a class="logo" href="/">
+          <img src="images/logo-ute.png" alt="Logo" />
+          <p class="text">UTE Invest</p>
+        </a>
+        <p class="footer__text">
+          El sitio web es propiedad y está gestionado por la UTE
+        </p>
+      </div>
+      <ul class="footer__list">
+        <li class="footer__item">Información legal:</li>
+        <li class="footer__item">Política de cookies</li>
+        <li class="footer__item">Política de privacidad</li>
+        <li class="footer__item">Política de privacidad</li>
+      </ul>
+      <div>
+        <p class="footer__partners">Pago seguro en línea</p>
+        <div class="footer__card"></div>
+      </div>
+      <!-- </div> -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script type="module" src="swiper.js"></script>
+  </body>
+</html>

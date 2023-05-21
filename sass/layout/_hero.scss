@@ -1,0 +1,163 @@
+.hero {
+  padding-top: 55px;
+  position: relative;
+  overflow: hidden;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 100px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding-top: 176px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: $accent-main-color;
+
+    @media screen and (min-width: 768px) {
+      font-size: 35px;
+      line-height: 1.375;
+    }
+
+    span {
+      color: $accent-secondary-color;
+    }
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.22;
+    color: $accent-main-color;
+    margin-top: 22px;
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 768px) {
+      font-size: 15px;
+      margin-top: 72px;
+      margin-bottom: 24px;
+    }
+    @media screen and (min-width: 1440px) {
+      font-size: 18px;
+    }
+  }
+
+  &__text-second {
+    margin-top: 5px;
+    margin-bottom: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.21;
+    color: #2a313d;
+    @media screen and (min-width: 768px) {
+      margin-top: 49px;
+      margin-bottom: 0;
+    }
+    @media screen and (min-width: 1440px) {
+      font-size: 16px;
+      line-height: 1.25;
+    }
+  }
+
+  &__phone {
+    position: absolute;
+    width: 347px;
+    height: 326px;
+    background-image: url('../images/sumsung.png');
+    background-repeat: no-repeat;
+    right: 50%;
+    transform: translateX(50%);
+
+    @media screen and (min-width: 768px) {
+      width: 465px;
+      height: 424px;
+      top: -15px;
+      background-image: url('../images/sumsung-desc.png');
+      background-size: 465px 424px;
+      top: 57px;
+      right: -89px;
+      transform: translateX(0);
+    }
+
+    @media screen and (min-width: 1440px) {
+      width: 665px;
+      height: 624px;
+      top: -103px;
+      right: 65px;
+      background-image: url('../images/sumsung-desc.png');
+      background-size: 665px 624px;
+    }
+  }
+
+  &__list {
+    padding-top: 423px;
+    width: 231px;
+    margin: 0 auto;
+
+    @media screen and (min-width: 768px) {
+      padding-top: 0;
+      width: 261px;
+      margin: 0;
+    }
+
+    .first {
+      background-image: url('../images/icon-mark.svg');
+      background-repeat: no-repeat;
+      background-position: 9% 50%;
+      background-size: 23px 27px;
+      @media screen and (min-width: 768px) {
+        background-size: 26px 30px;
+      }
+    }
+    .second {
+      background-image: url('../images/icon-time.svg');
+      background-repeat: no-repeat;
+      background-position: 8% 50%;
+      background-size: 27px 27px;
+      @media screen and (min-width: 768px) {
+        background-size: 30px 30px;
+      }
+    }
+    .third {
+      background-image: url('../images/icon-task.svg');
+      background-repeat: no-repeat;
+      background-position: 9% 50%;
+      background-size: 26px 27px;
+      @media screen and (min-width: 768px) {
+        background-size: 29px 30px;
+      }
+    }
+  }
+
+  &__item {
+    height: 46px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #003df0;
+    border-radius: 66px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.21;
+    color: #2a313d;
+    padding-left: 53px;
+
+    @media screen and (min-width: 768px) {
+      padding-left: 60px;
+    }
+  }
+  &__item:not(:last-child) {
+    margin-bottom: 18px;
+  }
+
+  &__slider {
+    @media screen and (min-width: 768px) {
+      display: flex;
+      align-items: center;
+      margin-top: 250px;
+    }
+  }
+}

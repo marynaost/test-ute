@@ -1,0 +1,86 @@
+.footer {
+  background: #eef2f9;
+  padding: 42px 31px 70px;
+
+  @media screen and (min-width: 768px) {
+    padding: 38px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding: 55px 136px 40px;
+    justify-content: start;
+  }
+
+  &__text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.61;
+    color: $accent-main-color;
+    width: 260px;
+    margin: 0 auto;
+    margin-top: 33px;
+    margin-bottom: 58px;
+
+    @media screen and (min-width: 768px) {
+      margin: 0;
+      margin-top: 20px;
+      width: 225px;
+    }
+    @media screen and (min-width: 1440px) {
+      line-height: 2.08;
+      width: 294px;
+    }
+  }
+
+  &__list {
+    margin: 0 auto;
+    width: 175px;
+    margin-bottom: 50px;
+
+    @media screen and (min-width: 768px) {
+      margin: 0;
+    }
+
+    @media screen and (min-width: 1440px) {
+      margin-left: 103px;
+    }
+  }
+
+  &__item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 2.34;
+  }
+
+  &__partners {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 2.34;
+    width: 171px;
+    margin: 0 auto;
+
+    @media screen and (min-width: 1440px) {
+      margin-right: 92px;
+      font-size: 18px;
+      line-height: 3.28;
+      width: 193px;
+    }
+  }
+
+  &__card {
+    margin: 0 auto;
+    width: 287px;
+    height: 112px;
+    background-image: url('../images/partners.png');
+
+    @media screen and (min-width: 1440px) {
+      width: 387px;
+      height: 151px;
+      margin-left: 171px;
+      background-image: url('../images/partners-desc.png');
+    }
+  }
+}
