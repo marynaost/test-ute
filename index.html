@@ -25,7 +25,6 @@
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
     <header class="header container">
       <a class="logo" href="/">
         <img src="images/logo-ute.png" alt="Logo" />
@@ -33,12 +32,17 @@
       </a>
       <nav class="nav">
         <ul>
-          <li>Nuestras ventajas</li>
-          <li>Cómo funciona</li>
-          <li>Comentarios</li>
+          <li><a href="#benefit"> Nuestras ventajas</a></li>
+          <li><a href="#funciona"> Cómo funciona</a></li>
+          <li><a href="#comentarios"> Comentarios</a></li>
         </ul>
       </nav>
     </header>
+
+    <div class="hero__decor"></div>
+    <div class="comentarios__decor"></div>
+    <div class="benefit__decor"></div>
+    <div class="funciona__decor"></div>
 
     <section class="hero">
       <div class="container">
@@ -51,7 +55,7 @@
         </p>
 
         <a href="https://web.telegram.org" rel="noopener noreferrer">
-          <img src="images/icon-telegram.svg" />
+          <img src="images/icon-telegram.svg" alt="Button to telegram" />
         </a>
 
         <p class="hero__text-second">
@@ -97,7 +101,7 @@
       </div>
     </section>
 
-    <section class="reviews container">
+    <section id="comentarios" class="reviews container">
       <h2 class="reviews__title">
         Opiniones de usuarios <br />
         <span>reales de UTE</span>
@@ -163,7 +167,7 @@
       </ul>
     </section>
 
-    <section class="benefit container">
+    <section id="benefit" class="benefit container">
       <div class="benefit__wrap">
         <div>
           <h2 class="benefit__title"><span>¿POR QUÉ</span> INVERTIR EN UTE?</h2>
@@ -186,7 +190,7 @@
       </div>
     </section>
 
-    <section class="work container">
+    <section id="funciona" class="work container">
       <h2 class="work__main-title"><span>Cómo</span> funciona</h2>
       <ul class="work__list">
         <li class="work__item reverse">
@@ -242,7 +246,6 @@
     </section>
 
     <footer class="footer">
-      <!-- <div class="container footer__wrap"> -->
       <div>
         <a class="logo" href="/">
           <img src="images/logo-ute.png" alt="Logo" />
@@ -262,7 +265,6 @@
         <p class="footer__partners">Pago seguro en línea</p>
         <div class="footer__card"></div>
       </div>
-      <!-- </div> -->
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script type="module" src="swiper.js"></script>

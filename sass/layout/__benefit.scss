@@ -89,6 +89,7 @@
   background-position: 4% 0%;
   background-size: 49px 58px;
   @media screen and (min-width: 768px) {
+    mix-blend-mode: soft-light;
     background-size: 45px 53px;
   }
 }
@@ -97,8 +98,11 @@
   background-image: url('../images/phone.svg');
   background-repeat: no-repeat;
   background-position: 7% 0%;
+
   background-size: 37px 51px;
+
   @media screen and (min-width: 768px) {
+    mix-blend-mode: soft-light;
     background-size: 34px 47px;
   }
 }
@@ -109,6 +113,8 @@
   background-position: 5% 0%;
   background-size: 51px 60px;
   @media screen and (min-width: 768px) {
+    mix-blend-mode: soft-light;
+
     background-size: 47px 55px;
     background-position: 5% 65%;
   }

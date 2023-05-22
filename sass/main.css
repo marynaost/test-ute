@@ -1,6 +1,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
+  color: #2a313d;
 }
 
 h1,
@@ -32,6 +33,7 @@ img {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 .container {
@@ -136,6 +138,63 @@ a {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .comentarios__decor {
+    position: absolute;
+    width: 261px;
+    height: 537px;
+    right: 0;
+    top: 1580px;
+    right: -10px;
+    rotate: 180deg;
+    background-image: url("../images/decor.png");
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .comentarios__decor {
+    top: 1913px;
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .benefit__decor {
+    position: absolute;
+    width: 611px;
+    height: 1550px;
+    top: 1580px;
+    left: 0;
+    background-image: url("../images/decor-bg.png");
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .benefit__decor {
+    top: 1950px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .funciona__decor {
+    position: absolute;
+    width: 512px;
+    height: 1517px;
+    top: 2635px;
+    right: 0;
+    rotate: 180deg;
+    background-image: url("../images/decor-bg.png");
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .funciona__decor {
+    width: 613px;
+    height: 1650px;
+    top: 3172px;
+  }
+}
+
 .header {
   padding-top: 24px;
 }
@@ -209,7 +268,6 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #2a313d;
 }
 
 .nav li:not(:last-child) {
@@ -220,6 +278,11 @@ a {
   .nav li:not(:last-child) {
     margin-right: 37px;
   }
+}
+
+.nav a:hover,
+.nav a:focus {
+  color: #003df0;
 }
 
 .hero {
@@ -288,7 +351,6 @@ a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.21;
-  color: #2a313d;
 }
 
 @media screen and (min-width: 768px) {
@@ -336,7 +398,6 @@ a {
     height: 624px;
     top: -103px;
     right: 65px;
-    background-image: url("../images/sumsung-desc.png");
     background-size: 665px 624px;
   }
 }
@@ -407,7 +468,6 @@ a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.21;
-  color: #2a313d;
   padding-left: 53px;
 }
 
@@ -419,6 +479,24 @@ a {
 
 .hero__item:not(:last-child) {
   margin-bottom: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__decor {
+    position: absolute;
+    width: 261px;
+    height: 537px;
+    top: 356px;
+    left: -50px;
+    background-image: url("../images/decor.png");
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero__decor {
+    top: 490px;
+    left: 0;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -449,7 +527,6 @@ a {
   font-weight: 700;
   font-size: 22px;
   line-height: 1.22;
-  color: #2a313d;
   text-align: center;
   margin-bottom: 39px;
 }
@@ -717,6 +794,7 @@ a {
 
 @media screen and (min-width: 768px) {
   .benefit-first {
+    mix-blend-mode: soft-light;
     background-size: 45px 53px;
   }
 }
@@ -730,6 +808,7 @@ a {
 
 @media screen and (min-width: 768px) {
   .benefit-second {
+    mix-blend-mode: soft-light;
     background-size: 34px 47px;
   }
 }
@@ -743,6 +822,7 @@ a {
 
 @media screen and (min-width: 768px) {
   .benefit-third {
+    mix-blend-mode: soft-light;
     background-size: 47px 55px;
     background-position: 5% 65%;
   }
@@ -962,7 +1042,6 @@ a {
   margin: 0 auto;
   margin-bottom: 40px;
   text-align: center;
-  color: #2a313d;
 }
 
 @media screen and (min-width: 768px) {

@@ -1,9 +1,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
-  // font-weight: 500;
-  // line-height: 20 / 12 * 100%;
-  // letter-spacing: 0.08em;
+  color: $main-color;
 }
 
 h1,
@@ -35,6 +33,7 @@ img {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 .container {
@@ -67,7 +66,7 @@ a {
   height: 42px;
   font-size: 14px;
   font-weight: 700;
-  background: #ff8200;
+  background: $accent-secondary-color;
   color: #ffffff;
   text-transform: uppercase;
   border-radius: 8px;
@@ -110,5 +109,55 @@ a {
   @media screen and (min-width: 1440px) {
     width: 640px;
     height: 747px;
+  }
+}
+
+.comentarios__decor {
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    width: 261px;
+    height: 537px;
+    right: 0;
+    top: 1580px;
+    right: -10px;
+    rotate: 180deg;
+    background-image: url('../images/decor.png');
+  }
+  @media screen and (min-width: 1440px) {
+    top: 1913px;
+    right: 0;
+  }
+}
+
+.benefit__decor {
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    width: 611px;
+    height: 1550px;
+    top: 1580px;
+    left: 0;
+
+    background-image: url('../images/decor-bg.png');
+  }
+  @media screen and (min-width: 1440px) {
+    top: 1950px;
+  }
+}
+
+.funciona__decor {
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    width: 512px;
+    height: 1517px;
+    top: 2635px;
+    right: 0;
+    rotate: 180deg;
+
+    background-image: url('../images/decor-bg.png');
+  }
+  @media screen and (min-width: 1440px) {
+    width: 613px;
+    height: 1650px;
+    top: 3172px;
   }
 }

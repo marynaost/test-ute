@@ -43,12 +43,17 @@
 
   ul {
     display: flex;
-    color: #2a313d;
   }
+
   li:not(:last-child) {
     margin-right: 25px;
     @media screen and (min-width: 1440px) {
       margin-right: 37px;
     }
+  }
+
+  a:hover,
+  a:focus {
+    color: $accent-main-color;
   }
 }

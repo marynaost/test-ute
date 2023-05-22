@@ -52,7 +52,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 1.21;
-    color: #2a313d;
+
     @media screen and (min-width: 768px) {
       margin-top: 49px;
       margin-bottom: 0;
@@ -88,7 +88,6 @@
       height: 624px;
       top: -103px;
       right: 65px;
-      background-image: url('../images/sumsung-desc.png');
       background-size: 665px 624px;
     }
   }
@@ -137,12 +136,12 @@
     height: 46px;
     display: flex;
     align-items: center;
-    border: 1px solid #003df0;
+    border: 1px solid $accent-main-color;
     border-radius: 66px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.21;
-    color: #2a313d;
+
     padding-left: 53px;
 
     @media screen and (min-width: 768px) {
@@ -151,6 +150,21 @@
   }
   &__item:not(:last-child) {
     margin-bottom: 18px;
+  }
+
+  &__decor {
+    @media screen and (min-width: 768px) {
+      position: absolute;
+      width: 261px;
+      height: 537px;
+      top: 356px;
+      left: -50px;
+      background-image: url('../images/decor.png');
+    }
+    @media screen and (min-width: 1440px) {
+      top: 490px;
+      left: 0;
+    }
   }
 
   &__slider {
