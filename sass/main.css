@@ -143,7 +143,6 @@ a {
     position: absolute;
     width: 261px;
     height: 537px;
-    right: 0;
     top: 1580px;
     right: -10px;
     rotate: 180deg;
@@ -179,7 +178,7 @@ a {
   .funciona__decor {
     position: absolute;
     width: 512px;
-    height: 1517px;
+    height: 1357px;
     top: 2635px;
     right: 0;
     rotate: 180deg;
@@ -1107,13 +1106,14 @@ a {
 
 @media screen and (min-width: 768px) {
   .footer {
-    padding: 38px 20px;
+    padding: 38px 25px;
+    margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1123,9 +1123,6 @@ a {
 @media screen and (min-width: 1440px) {
   .footer {
     padding: 55px 136px 40px;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
   }
 }
 
@@ -1164,6 +1161,7 @@ a {
 @media screen and (min-width: 768px) {
   .footer__list {
     margin: 0;
+    margin-left: 25px;
   }
 }
 
@@ -1201,6 +1199,12 @@ a {
   width: 287px;
   height: 112px;
   background-image: url("../images/partners.png");
+}
+
+@media screen and (min-width: 786px) {
+  .footer__card {
+    margin-left: 35px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
